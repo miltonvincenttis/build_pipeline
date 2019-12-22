@@ -2,3 +2,4 @@
 ---
 ## sys
 
+##### Referencia: [GO/CD](https://www.gocd.org/getting-started/part-1/#concept1)
