@@ -19,6 +19,6 @@ public class GithubPushEventResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response pushEvent() {
         System.out.println("pushEvent");
-        return Response.ok("{ 'recebi':'obrigado' }").build();
+        return Response.ok("recebi:obrigado").build();
     }
 }
