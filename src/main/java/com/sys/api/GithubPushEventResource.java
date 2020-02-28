@@ -4,6 +4,7 @@ package com.sys.api;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -15,8 +16,9 @@ import javax.ws.rs.core.Response;
 public class GithubPushEventResource {
     @GET
     @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
     public Response pushEvent() {
         System.out.println("pushEvent");
-        return Response.ok("pushEvent").build();
+        return Response.ok("recebi:obrigado").build();
     }
 }
